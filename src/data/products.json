@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Sulfur",
+    "id": "sulfur",
+    "image": "/sulfur.png",
+    "icon": "Factory",
+    "description": "A critical raw material for the global fertilizer and chemical industries. We specialize in high-purity elemental sulfur, facilitating its journey from production hubs to industrial end-users with unmatched logistics precision.",
+    "highlights": ["Granular Sulfur", "Crushed Lumps", "Chemical Grade", "Agri-Industry Supply"]
+  },
+  {
+    "title": "Soda Ash",
+    "id": "soda-ash",
+    "image": "/soda-ash.png",
+    "icon": "Beaker",
+    "description": "An essential component in glass manufacturing, detergents, and industrial chemicals. Our supply chain for light and dense soda ash spans the globe, ensuring consistent quality and reliable delivery timelines.",
+    "highlights": ["Light Soda Ash", "Dense Soda Ash", "Refining Agents", "Glass Manufacturing"]
+  },
+  {
+    "title": "Potash",
+    "id": "potash",
+    "image": "/potash.png",
+    "icon": "Sprout",
+    "description": "Driving global food security through essential soil nutrients. We trade various grades of MOP (Muriate of Potash), supporting large-scale agricultural operations with sustainable and efficient supply solutions.",
+    "highlights": ["Muriate of Potash (MOP)", "Granular Grade", "Standard Grade", "Agricultural Nutrients"]
+  },
+  {
+    "title": "Urea",
+    "id": "urea",
+    "image": "/urea.png",
+    "icon": "Droplets",
+    "description": "The world's most widely used nitrogen fertilizer. We facilitate the global trade of high-quality urea, optimizing our distribution networks to reach key agricultural markets exactly when needed.",
+    "highlights": ["Prilled Urea", "Granular Urea", "Industrial Grade", "Nitrogen Nutrition"]
+  },
+  {
+    "title": "Sugar",
+    "id": "sugar",
+    "image": "/sugar.png",
+    "icon": "Candy",
+    "description": "From raw sugar to refined crystals, we manage complex supply chains for one of the world's most volatile soft commodities. Our expertise in risk management ensures stability for both producers and consumers.",
+    "highlights": ["VHP Raw Sugar", "Refining Grade", "Industrial Sweeteners", "Supply Chain Control"]
+  },
+  {
+    "title": "Salt",
+    "id": "salt",
+    "image": "/salt.png",
+    "icon": "Waves",
+    "description": "Beyond table use, salt is a cornerstone for the chemical and de-icing industries. We move massive volumes of sea and rock salt, providing the industrial-scale logistics required for this foundational mineral.",
+    "highlights": ["Industrial Grade Salt", "Chemical Processing", "De-icing Solutions", "Global Bulk Shipping"]
+  },
+  {
+    "title": "Coffee",
+    "id": "coffee",
+    "image": "/coffee.png",
+    "icon": "Coffee",
+    "description": "Bridging the gap between premium estates and global roasters. Our coffee desk focuses on supply chain transparency and quality control, delivering the world's finest beans with integrity.",
+    "highlights": ["Arabica & Robusta", "Specialty Blends", "Ethical Sourcing", "Direct Trade Models"]
+  }
+]

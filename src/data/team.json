@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Alexander Vance",
+    "role": "Chief Executive Officer",
+    "description": "Over 25 years of experience in global markets and commodities. Previously held senior leadership roles at major international trading houses.",
+    "social": {
+      "linkedin": "#",
+      "email": "mailto:alexander@foundation-trading.com"
+    }
+  },
+  {
+    "name": "Elena Rossi",
+    "role": "Chief Financial Officer",
+    "description": "Expert in corporate finance, risk management, and strategic planning. Spearheads our global financial operations and investment strategy.",
+    "social": {
+      "linkedin": "#",
+      "email": "mailto:elena@foundation-trading.com"
+    }
+  },
+  {
+    "name": "David Chen",
+    "role": "Head of Trading",
+    "description": "Leads our global trading desks across Energy and Metals. Specialist in market analytics and algorithmic trading strategies.",
+    "social": {
+      "linkedin": "#",
+      "email": "mailto:david@foundation-trading.com"
+    }
+  },
+  {
+    "name": "Sarah Jenkins",
+    "role": "Head of Sustainability",
+    "description": "Drives our ESG initiatives and carbon reduction strategies. Committed to integrating sustainable practices into our core trading operations.",
+    "social": {
+      "linkedin": "#",
+      "email": "mailto:sarah@foundation-trading.com"
+    }
+  }
+]
