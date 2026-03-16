@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { Linkedin, Mail, ArrowRight } from "lucide-react";
+import { Linkedin, Mail, Phone, ArrowRight } from "lucide-react";
 import { getTeam } from "@/lib/content-utils";
 
 export default function LeadershipPage() {
@@ -51,7 +51,7 @@ export default function LeadershipPage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-8">Guided by <span className="text-green italic">Experience</span> and <span className="text-green italic">Integrity</span>.</h2>
           <p className="text-muted-foreground text-lg font-light leading-relaxed">
-            The Foundation Trading leadership team brings together decades of expertise from across the energy, financial, and logistics sectors. Our management approach is built on transparency, strategic foresight, and a commitment to delivering long-term value to our partners and stakeholders.
+            The FOUNDATION TRADING COMPANY leadership team brings together decades of expertise from across the energy, financial, and logistics sectors. Our management approach is built on transparency, strategic foresight, and a commitment to delivering long-term value to our partners and stakeholders.
           </p>
         </div>
       </section>
@@ -74,6 +74,7 @@ export default function LeadershipPage() {
                 <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform bg-white/95 backdrop-blur-sm border-t border-green/20 flex gap-4 justify-center">
                   <a href={member.social.linkedin} className="p-2 text-foreground/60 hover:text-green transition-colors" aria-label="LinkedIn"><Linkedin size={20} /></a>
                   <a href={member.social.email} className="p-2 text-foreground/60 hover:text-green transition-colors" aria-label="Email"><Mail size={20} /></a>
+                  <a href={member.social.phone} className="p-2 text-foreground/60 hover:text-green transition-colors" aria-label="Phone"><Phone size={20} /></a>
                 </div>
               </div>
               <h3 className="text-xl font-serif text-foreground mb-1">{member.name}</h3>

@@ -11,6 +11,11 @@ const footerLinks = {
     { name: "Sugar", href: "/commodities#sugar" },
     { name: "Salt", href: "/commodities#salt" },
     { name: "Coffee", href: "/commodities#coffee" },
+    { name: "Petroleum", href: "/commodities#petroleum" },
+    { name: "Metals & Mining", href: "/commodities#metals" },
+    { name: "Livestock", href: "/commodities#livestock" },
+    { name: "Edible Oils", href: "/commodities#edible-oils" },
+    { name: "Superfoods", href: "/commodities#baobab" },
   ],
   Company: [
     { name: "About Us", href: "/about" },
@@ -41,7 +46,7 @@ export function Footer() {
                 F
               </div>
               <span className="text-white font-serif text-xl font-semibold tracking-wide">
-                FOUNDATION <span className="text-green-400">TRADING</span>
+                FOUNDATION <span className="text-green-400">TRADING COMPANY</span>
               </span>
             </Link>
             <p className="text-white/60 max-w-sm mb-8 font-light leading-relaxed">
@@ -96,7 +101,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-10 border-t border-white/5">
           <p className="text-white/40 text-[10px] uppercase tracking-widest font-bold">
-            © {new Date().getFullYear()} Foundation Trading. All Rights Reserved.
+            © {new Date().getFullYear()} FOUNDATION TRADING COMPANY. All Rights Reserved.
           </p>
           <div className="flex gap-8 text-[10px] uppercase tracking-widest text-white/40 font-bold">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>

@@ -54,5 +54,53 @@
     "icon": "Coffee",
     "description": "Bridging the gap between premium estates and global roasters. Our coffee desk focuses on supply chain transparency and quality control, delivering the world's finest beans with integrity.",
     "highlights": ["Arabica & Robusta", "Specialty Blends", "Ethical Sourcing", "Direct Trade Models"]
+  },
+  {
+    "title": "Petroleum Products",
+    "id": "petroleum",
+    "image": "/petroleum.jpg",
+    "icon": "Droplets",
+    "description": "Navigating the complexities of global energy markets with precision. We facilitate the trade and logistics of high-grade petroleum products, ensuring a steady flow of energy to industrial and commercial sectors.",
+    "highlights": ["Gasoil & Mogas", "Jet A1 Fuel", "Fuel Oil & Bitumen", "Energy Logistics"]
+  },
+  {
+    "title": "Metals & Mining",
+    "id": "metals",
+    "image": "/metals-mining.jpg",
+    "icon": "Hammer",
+    "description": "Facilitating the supply of essential minerals and metals that power industrial growth. Our mining desk manages the sourcing and distribution of high-purity ores and refined metals with ethical oversight.",
+    "highlights": ["Copper & Gold", "Iron Ore Supply", "Industrial Minerals", "Sustainable Sourcing"]
+  },
+  {
+    "title": "Meat & Livestock",
+    "id": "livestock",
+    "image": "/livestock.jpg",
+    "icon": "Beef",
+    "description": "Connecting high-quality livestock producers with global markets. Our agricultural division ensures the highest standards of animal welfare and product quality, delivering premium meat products worldwide.",
+    "highlights": ["Premium Beef", "Livestock Trading", "Processed Meats", "Cold Chain Logistics"]
+  },
+  {
+    "title": "Edible Oils",
+    "id": "edible-oils",
+    "image": "/edible-oils.jpg",
+    "icon": "Pipette",
+    "description": "Ensuring the consistent supply of essential culinary and industrial oils. We specialize in the bulk trading of high-purity edible oils, managing the journey from harvest to refinery to final consumer.",
+    "highlights": ["Palm & Sunflower Oil", "Soybean Oil", "Industrial Fats", "Reliable Distribution"]
+  },
+  {
+    "title": "Baobab Powder",
+    "id": "baobab",
+    "image": "/baobab-powder.jpg",
+    "icon": "TreePine",
+    "description": "Delivering the nutritional power of the African savannah to the world. We offer high-purity organic baobab powder, ethically sourced to support both local communities and global health trends.",
+    "highlights": ["Organic Powder", "Nutrient Dense", "Ethical Harvesting", "Natural Superfood"]
+  },
+  {
+    "title": "Moringa Powder",
+    "id": "moringa",
+    "image": "/moringa-powder.jpg",
+    "icon": "Leaf",
+    "description": "Harnessing the extraordinary benefits of the 'Tree of Life'. Our moringa desk provides premium, sustainably processed green powder, meeting the highest standards for the health and wellness industry.",
+    "highlights": ["Pure Green Powder", "Eco-Friendly Sourcing", "Health & Wellness", "Global Distribution"]
   }
 ]

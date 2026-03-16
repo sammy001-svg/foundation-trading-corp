@@ -70,7 +70,7 @@ export default function InsightsPage() {
                    </div>
                 </div>
                 
-                <div className="p-8 flex flex-col flex-grow">
+                <div className="p-8 flex flex-col grow">
                   <div className="flex items-center gap-4 text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
                     <span className="flex items-center gap-1"><Calendar size={12} /> {insight.date}</span>
                     <span className="flex items-center gap-1"><Tag size={12} /> {insight.category}</span>

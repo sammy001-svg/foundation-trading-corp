@@ -1,38 +1,32 @@
 [
   {
-    "name": "Alexander Vance",
+    "name": "OMUREMBE IYADI",
     "role": "Chief Executive Officer",
-    "description": "Over 25 years of experience in global markets and commodities. Previously held senior leadership roles at major international trading houses.",
+    "description": "Leading FOUNDATION TRADING COMPANY with over 30 years of expertise in global commodity markets, strategic growth, and operational excellence.",
     "social": {
       "linkedin": "#",
-      "email": "mailto:alexander@foundation-trading.com"
+      "email": "mailto:omurembe@foundation-to.com",
+      "phone": "tel:+254721767225"
     }
   },
   {
-    "name": "Elena Rossi",
-    "role": "Chief Financial Officer",
-    "description": "Expert in corporate finance, risk management, and strategic planning. Spearheads our global financial operations and investment strategy.",
+    "name": "Joel Opunga",
+    "role": "Head of Business Development",
+    "description": "Driving strategic partnerships and market expansion across East and Central Africa, Asia, and Western Europe.",
     "social": {
       "linkedin": "#",
-      "email": "mailto:elena@foundation-trading.com"
+      "email": "mailto:Jopunga@foundation-tco.com",
+      "phone": "tel:+254722317715"
     }
   },
   {
-    "name": "David Chen",
-    "role": "Head of Trading",
-    "description": "Leads our global trading desks across Energy and Metals. Specialist in market analytics and algorithmic trading strategies.",
+    "name": "JOHN MUKEWA",
+    "role": "Head of Operations",
+    "description": "Overseeing global logistics and supply chain management, ensuring the efficient and reliable delivery of essential commodities.",
     "social": {
       "linkedin": "#",
-      "email": "mailto:david@foundation-trading.com"
-    }
-  },
-  {
-    "name": "Sarah Jenkins",
-    "role": "Head of Sustainability",
-    "description": "Drives our ESG initiatives and carbon reduction strategies. Committed to integrating sustainable practices into our core trading operations.",
-    "social": {
-      "linkedin": "#",
-      "email": "mailto:sarah@foundation-trading.com"
+      "email": "mailto:Jmukewa@foundation-tco.com",
+      "phone": "tel:+254720304857"
     }
   }
 ]

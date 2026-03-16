@@ -15,7 +15,7 @@ const values = [
   },
   {
     title: "Our Vision",
-    description: "To be the most trusted partner in global commodity trading, recognized for our excellence in logistics, market intelligence, and commitment to a sustainable future.",
+    description: "To be the most trusted partner in global commodity trading, recognized for our excellence in delivery, logistics, and commitment to a sustainable future.",
     icon: Eye,
   },
 ];
@@ -43,7 +43,7 @@ export default function AboutPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-serif text-foreground mb-4"
           >
-            About <span className="green-gradient">Foundation Trading</span>
+            About <span className="green-gradient">FOUNDATION TRADING COMPANY</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -89,36 +89,36 @@ export default function AboutPage() {
           <div className="space-y-12">
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="md:w-1/4">
-                <span className="text-4xl font-serif text-green/60">2010</span>
+                <span className="text-4xl font-serif text-green/60">1993</span>
               </div>
               <div className="md:w-3/4">
                 <h4 className="text-xl font-bold text-foreground mb-2 uppercase tracking-wide">Foundation</h4>
                 <p className="text-muted-foreground font-light leading-relaxed">
-                  Established with a primary focus on energy trading in European markets, Foundation Trading quickly set a benchmark for reliability and market intelligence.
+                  Established with a primary focus on agricultural commodity trading in East and Central Africa, Asian and Western European markets, FOUNDATION TRADING COMPANY has set a benchmark for reliability.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="md:w-1/4">
-                <span className="text-4xl font-serif text-green/60">2015</span>
+                <span className="text-4xl font-serif text-green/60">GLOBAL EXPANSION</span>
               </div>
               <div className="md:w-3/4">
-                <h4 className="text-xl font-bold text-foreground mb-2 uppercase tracking-wide">Global Expansion</h4>
+                <h4 className="text-xl font-bold text-foreground mb-2 uppercase tracking-wide">Strategic Growth</h4>
                 <p className="text-muted-foreground font-light leading-relaxed">
-                  Expanded operations to include base metals and agricultural products, opening strategic offices in Singapore and Geneva to facilitate global trade flows.
+                  Expanded operations to include industrial raw materials and petroleum products. We opened satellite offices in Dar es Salaam and Kampala to strengthen our footprints across the region.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="md:w-1/4">
-                <span className="text-4xl font-serif text-green/60">2022</span>
+                <span className="text-4xl font-serif text-green/60">2024</span>
               </div>
               <div className="md:w-3/4">
                 <h4 className="text-xl font-bold text-foreground mb-2 uppercase tracking-wide">Sustainable Future</h4>
                 <p className="text-muted-foreground font-light leading-relaxed">
-                  Launched our dedicated Sustainability initiative, focusing on renewable energy and responsible sourcing, ensuring our trading practices align with global ESG standards.
+                  Deepening our commitment to a sustainable future through renewable energy investments and responsible supply chain management, ensuring long-term value for our global partners.
                 </p>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function AboutPage() {
             <div className="text-foreground text-xs uppercase tracking-[0.2em] font-bold">Strategic HQ</div>
           </div>
           <div>
-            <div className="text-4xl font-serif text-green mb-2">15+</div>
+            <div className="text-4xl font-serif text-green mb-2">30+</div>
             <div className="text-foreground text-xs uppercase tracking-[0.2em] font-bold">Years Excellence</div>
           </div>
         </div>

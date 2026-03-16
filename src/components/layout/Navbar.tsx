@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 // Navigation is handled via the Commodities page.
 
 const navLinks = [
+  { name: "Home", href: "/" },
   { name: "Commodities", href: "/commodities" },
   { name: "Services", href: "/services" },
   { name: "Sustainability", href: "/sustainability" },
@@ -44,7 +45,7 @@ export function Navbar() {
             F
           </div>
           <span className="font-serif text-xl font-semibold tracking-wide hidden sm:block text-white">
-            FOUNDATION <span className={isScrolled ? "text-white/80" : "text-green"}>TRADING</span>
+            FOUNDATION <span className={isScrolled ? "text-white/80" : "text-green"}>TRADING COMPANY</span>
           </span>
         </Link>
 

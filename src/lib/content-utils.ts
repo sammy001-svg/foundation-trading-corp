@@ -21,6 +21,7 @@ export interface TeamMember {
   social: {
     linkedin: string;
     email: string;
+    phone: string;
   };
 }
 
@@ -34,7 +35,7 @@ export interface Insight {
 }
 
 export const getIcon = (name: string) => {
-  const Icon = (Icons as any)[name];
+  const Icon = (Icons as unknown as Record<string, React.ComponentType>)[name];
   return Icon || Icons.HelpCircle;
 };
 

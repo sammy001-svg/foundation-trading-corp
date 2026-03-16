@@ -71,7 +71,7 @@ export function HeroSection() {
                 Explore Markets <ArrowRight size={18} />
               </button>
               <button className="px-10 py-5 border border-foreground/10 text-foreground font-bold uppercase tracking-widest text-xs hover:bg-foreground hover:text-white transition-all">
-                About Foundation
+                About FOUNDATION TRADING COMPANY
               </button>
             </div>
           </motion.div>

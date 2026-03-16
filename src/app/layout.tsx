@@ -14,30 +14,30 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Foundation Trading | Global Commodity Trading & Logistics",
-    template: "%s | Foundation Trading",
+    default: "FOUNDATION TRADING COMPANY | Global Commodity Trading & Logistics",
+    template: "%s | FOUNDATION TRADING COMPANY",
   },
-  description: "Foundation Trading is a premier global commodity trading house, facilitating the flow of essential products with integrity and precision. Specializing in Energy, Metals, and Agri-products.",
-  keywords: ["commodity trading", "energy trading", "metals trading", "global logistics", "sustainability", "Foundation Trading", "Nairobi trading"],
-  authors: [{ name: "Foundation Trading" }],
-  creator: "Foundation Trading",
-  publisher: "Foundation Trading",
+  description: "FOUNDATION TRADING COMPANY is a premier global commodity trading house, facilitating the flow of essential products with integrity and precision. Specializing in Energy, Metals, and Agri-products.",
+  keywords: ["commodity trading", "energy trading", "metals trading", "global logistics", "sustainability", "FOUNDATION TRADING COMPANY", "Nairobi trading"],
+  authors: [{ name: "FOUNDATION TRADING COMPANY" }],
+  creator: "FOUNDATION TRADING COMPANY",
+  publisher: "FOUNDATION TRADING COMPANY",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Foundation Trading | Global Commodity Trading & Logistics",
+    title: "FOUNDATION TRADING COMPANY | Global Commodity Trading & Logistics",
     description: "Empowering the Global Economy through responsible and efficient commodity trading.",
     url: "https://foundation-trading.com",
-    siteName: "Foundation Trading",
+    siteName: "FOUNDATION TRADING COMPANY",
     images: [
       {
         url: "https://foundation-trading.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Foundation Trading Global Network",
+        alt: "FOUNDATION TRADING COMPANY Global Network",
       },
     ],
     locale: "en_US",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Foundation Trading | Global Commodity Trading & Logistics",
+    title: "FOUNDATION TRADING COMPANY | Global Commodity Trading & Logistics",
     description: "Empowering the Global Economy through responsible and efficient commodity trading.",
     images: ["https://foundation-trading.com/og-image.png"],
     creator: "@foundationtrading",

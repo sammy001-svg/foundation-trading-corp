@@ -81,7 +81,7 @@ export default function SustainabilityPage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-8">Responsibility is at the <span className="text-green italic">heart</span> of our operations.</h2>
           <p className="text-muted-foreground text-lg font-light leading-relaxed mb-12">
-            At Foundation Trading, we recognize that our role in global markets comes with a significant responsibility to the environment and the communities we serve. We are dedicated to integrating ESG principles across our entire business model.
+            At FOUNDATION TRADING COMPANY, we recognize that our role in global markets comes with a significant responsibility to the environment and the communities we serve. We are dedicated to integrating ESG principles across our entire business model.
           </p>
           <div className="w-24 h-px bg-green mx-auto" />
         </div>

@@ -1,6 +1,6 @@
-# Foundation Trading | Global Commodity Trading & Logistics
+# FOUNDATION TRADING COMPANY | Global Commodity Trading & Logistics
 
-Foundation Trading is a premier global commodity trading house, facilitating the flow of essential resources across continents with integrity, precision, and operational excellence. This platform serves as a production-ready corporate portal and intelligence hub for global trade operations.
+FOUNDATION TRADING COMPANY is a premier global commodity trading house, facilitating the flow of essential resources across continents with integrity, precision, and operational excellence. This platform serves as a production-ready corporate portal and intelligence hub for global trade operations.
 
 ## 🚀 Key Features
 
@@ -48,4 +48,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## 📄 License
 
-Professional project for Foundation Trading. All rights reserved.
+Professional project for FOUNDATION TRADING COMPANY. All rights reserved.
