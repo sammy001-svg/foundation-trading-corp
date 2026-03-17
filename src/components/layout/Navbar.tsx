@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -38,11 +39,14 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <div className={cn(
-            "w-10 h-10 rounded flex items-center justify-center font-serif font-bold text-xl transition-colors",
-            isScrolled ? "bg-white text-green" : "bg-green text-white"
-          )}>
-            F
+          <div className="relative w-10 h-10">
+            <Image
+              src="/logo.png"
+              alt="FTC Logo"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
           <span className="font-serif text-xl font-semibold tracking-wide hidden sm:block text-white">
             FOUNDATION <span className={isScrolled ? "text-white/80" : "text-green"}>TRADING COMPANY</span>

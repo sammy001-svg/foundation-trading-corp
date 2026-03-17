@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Twitter, Linkedin, Instagram, MapPin } from "lucide-react";
 
 const footerLinks = {
@@ -42,8 +43,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-20">
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 bg-white text-green rounded flex items-center justify-center font-serif font-bold text-xl">
-                F
+              <div className="relative w-10 h-10">
+                <Image
+                  src="/logo.png"
+                  alt="FTC Logo"
+                  fill
+                  className="object-contain bg-white rounded p-1"
+                />
               </div>
               <span className="text-white font-serif text-xl font-semibold tracking-wide">
                 FOUNDATION <span className="text-green-400">TRADING COMPANY</span>
