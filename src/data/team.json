@@ -21,12 +21,22 @@
   },
   {
     "name": "JOHN MUKEWA",
-    "role": "Head of Operations",
-    "description": "Overseeing global logistics and supply chain management, ensuring the efficient and reliable delivery of essential commodities.",
+    "role": "Head Corporate Strategy",
+    "description": "Leading corporate strategy to drive sustainable growth and long-term value creation across global markets.",
     "social": {
       "linkedin": "#",
       "email": "mailto:Jmukewa@foundation-tco.com",
       "phone": "tel:+254720304857"
+    }
+  },
+  {
+    "name": "Eng. Johnstone Wangusi",
+    "role": "Head of Operations",
+    "description": "Overseeing global logistics and supply chain management, ensuring the efficient and reliable delivery of essential commodities.",
+    "social": {
+      "linkedin": "#",
+      "email": "mailto:Jwangusi@foundation-tco.com",
+      "phone": "tel:+254702386972"
     }
   }
 ]

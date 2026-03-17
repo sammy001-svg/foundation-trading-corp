@@ -34,14 +34,14 @@ export function Navbar() {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500 px-6 py-4",
-        isScrolled ? "bg-green shadow-xl py-3" : "bg-transparent"
+        isScrolled ? "bg-green shadow-xl py-3" : "bg-transparent",
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <div className="relative w-10 h-10">
             <Image
-              src="/logo.png"
+              src="/logo-ftc.png"
               alt="FTC Logo"
               fill
               className="object-contain"
@@ -49,7 +49,10 @@ export function Navbar() {
             />
           </div>
           <span className="font-serif text-xl font-semibold tracking-wide hidden sm:block text-white">
-            FOUNDATION <span className={isScrolled ? "text-white/80" : "text-green"}>TRADING COMPANY</span>
+            FOUNDATION{" "}
+            <span className={isScrolled ? "text-white/80" : "text-green"}>
+              TRADING COMPANY
+            </span>
           </span>
         </Link>
 
@@ -68,12 +71,12 @@ export function Navbar() {
             href="/contact"
             className={cn(
               "px-5 py-2.5 rounded text-sm font-bold uppercase tracking-wider flex items-center gap-2 transition-all group",
-              isScrolled 
-                ? "bg-white text-green hover:bg-white/90" 
-                : "bg-green text-white hover:bg-foreground"
+              isScrolled
+                ? "bg-white text-green hover:bg-white/90"
+                : "bg-green text-white hover:bg-foreground",
             )}
           >
-            Contact 
+            Contact
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
@@ -82,7 +85,7 @@ export function Navbar() {
         <button
           className={cn(
             isScrolled ? "text-foreground" : "text-white",
-            "md:hidden"
+            "md:hidden",
           )}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
