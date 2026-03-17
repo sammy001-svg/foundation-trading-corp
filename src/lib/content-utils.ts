@@ -34,12 +34,13 @@ export interface Insight {
   link: string;
 }
 
-export const getIcon = (name: string) => {
-  const Icon = (Icons as unknown as Record<string, React.ComponentType>)[name];
+export const getIcon = (name: string): Icons.LucideIcon => {
+  const Icon = (Icons as unknown as Record<string, Icons.LucideIcon>)[name];
   return Icon || Icons.HelpCircle;
 };
 
 export const getProducts = () => products as Product[];
 export const getTeam = () => team as TeamMember[];
 export const getInsights = () => insights as Insight[];
-export const getProductById = (id: string) => (products as Product[]).find(p => p.id === id);
+export const getProductById = (id: string) =>
+  (products as Product[]).find((p) => p.id === id);
