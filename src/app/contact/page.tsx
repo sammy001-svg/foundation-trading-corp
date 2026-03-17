@@ -10,7 +10,7 @@ import { MapPin, Phone, Mail, Clock, Send, Globe, ArrowRight } from "lucide-reac
 const offices = [
   {
     city: "Nairobi (Headquarters)",
-    address: "Karen, Nairobi, Kenya",
+    address: "Warai Road, Karen - Nairobi",
     phone: "+254 725 984 877 / +254 721 767 225",
     email: "info@foundation-trading.com",
     timezone: "EAT (GMT+3)",

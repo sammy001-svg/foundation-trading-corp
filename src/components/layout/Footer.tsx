@@ -32,7 +32,7 @@ const footerLinks = {
 };
 
 const offices = [
-  { city: "Nairobi (Headquarters)", address: "Karen, Nairobi, Kenya", phone: "+254 725 984 877 / +254 721 767 225" },
+  { city: "Nairobi (Headquarters)", address: "Warai Road, Karen - Nairobi", phone: "+254 725 984 877 / +254 721 767 225" },
 ];
 
 export function Footer() {
