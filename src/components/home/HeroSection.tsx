@@ -13,6 +13,16 @@ export function HeroSection() {
   const slides = heroData;
   const AUTOPLAY_INTERVAL = 6000;
 
+  const nextSlide = useCallback(() => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+    setProgress(0);
+  }, [slides.length]);
+
+  const prevSlide = useCallback(() => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+    setProgress(0);
+  }, [slides.length]);
+
   useEffect(() => {
     if (isPaused) return;
 
@@ -27,19 +37,9 @@ export function HeroSection() {
     }, 100);
 
     return () => clearInterval(timer);
-  }, [isPaused, currentSlide]);
+  }, [isPaused, currentSlide, nextSlide]);
 
-  const nextSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-    setProgress(0);
-  }, [slides.length]);
-
-  const prevSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-    setProgress(0);
-  }, [slides.length]);
-
-  const onDragEnd = (event: any, info: any) => {
+  const onDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     if (info.offset.x < -100) nextSlide();
     else if (info.offset.x > 100) prevSlide();
   };
