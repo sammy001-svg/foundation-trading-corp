@@ -11,7 +11,7 @@ const offices = [
   {
     city: "Nairobi (Headquarters)",
     address: "Karen, Nairobi, Kenya",
-    phone: "+254 712 345 678",
+    phone: "+254 725 984 877 / +254 721 767 225",
     email: "info@foundation-trading.com",
     timezone: "EAT (GMT+3)",
   },

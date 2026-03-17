@@ -32,7 +32,7 @@ const footerLinks = {
 };
 
 const offices = [
-  { city: "Nairobi (Headquarters)", address: "Karen, Nairobi, Kenya" },
+  { city: "Nairobi (Headquarters)", address: "Karen, Nairobi, Kenya", phone: "+254 725 984 877 / +254 721 767 225" },
 ];
 
 export function Footer() {
@@ -93,7 +93,8 @@ export function Footer() {
                 <h5 className="text-white font-bold text-sm uppercase tracking-wider mb-2">
                   {office.city}
                 </h5>
-                <p className="text-white/50 text-sm font-light">{office.address}</p>
+                <p className="text-white/50 text-sm font-light mb-1">{office.address}</p>
+                <p className="text-white/50 text-xs font-light">{office.phone}</p>
               </div>
             </div>
           ))}
